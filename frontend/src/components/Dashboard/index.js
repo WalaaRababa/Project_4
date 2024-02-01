@@ -136,8 +136,8 @@ const Dashboard = () => {
       {show &&
         articles.map((article, index) => (
           <div key={index} className="article">
-            <div>{article.title}</div>
-            <div>{article.description}</div>
+            <div><h4>{article.title}</h4></div>
+            <div><p>{article.description}</p></div>
             <div>
               {article.comments ? (
                 article.comments.map((comment, i) => {
