@@ -30,7 +30,7 @@ const AddArticle = () => {
         description,
       };
       const result = await axios.post(
-        "http://localhost:5000/articles",
+        "https://blog-it-n9gi.onrender.com/articles",
         article,
         {
           headers: {

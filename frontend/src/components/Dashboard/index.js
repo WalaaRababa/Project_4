@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   const getAllArticles = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/articles", {
+      const res = await axios.get("https://blog-it-n9gi.onrender.com/articles", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -57,7 +57,7 @@ const Dashboard = () => {
 
   const updateArticle = async (id) => {
     try {
-      const res = await axios.put(`http://localhost:5000/articles/${id}`, {
+      const res = await axios.put(`https://blog-it-n9gi.onrender.com/articles/${id}`, {
         title,
         description,
       });
@@ -81,7 +81,7 @@ const Dashboard = () => {
 
   const deleteArticle = async (id) => {
     try {
-      const res = await axios.delete(`http://localhost:5000/articles/${id}`);
+      const res = await axios.delete(`https://blog-it-n9gi.onrender.com/articles/${id}`);
       if (res.data.success) {
         const newArticles = articles.filter((ele, i) => {
           return ele._id !== id;
@@ -98,7 +98,7 @@ const Dashboard = () => {
   const addComment = async (id) => {
     try {
       const res = await axios.post(
-        `http://localhost:5000/articles/${id}/comments`,
+        `https://blog-it-n9gi.onrender.com/articles/${id}/comments`,
         {
           comment,
         },

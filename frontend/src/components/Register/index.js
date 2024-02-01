@@ -15,7 +15,7 @@ const Register = () => {
   const [country, setCountry] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const role = "63f14a96d65c60113a5d6a41";
+  // const role = "63f14a96d65c60113a5d6a41";
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState(false);
 
@@ -24,7 +24,7 @@ const Register = () => {
   const addNewUser = async (e) => {
     e.preventDefault();
     try {
-      const result = await axios.post("http://localhost:5000/users/register", {
+      const result = await axios.post("https://blog-it-n9gi.onrender.com/users/register", {
         firstName,
         lastName,
         age,

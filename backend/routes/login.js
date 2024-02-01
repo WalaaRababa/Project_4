@@ -8,7 +8,7 @@ const loginRouter = express.Router();
 
 /*
  * Testing Routes:
- * POST -> http://localhost:5000/login/
+ * POST -> https://blog-it-n9gi.onrender.com/login/
 */
 
 /*

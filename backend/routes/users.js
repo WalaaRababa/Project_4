@@ -6,7 +6,7 @@ const usersRouter = express.Router();
 
 /*
  * Testing Routes:
- * POST -> http://localhost:5000/users/register
+ * POST -> https://blog-it-n9gi.onrender.com/users/register
  */
 
 /*
@@ -25,7 +25,7 @@ const usersRouter = express.Router();
 usersRouter.post("/register", register);
 /*
  * Testing Routes:
- * POST -> http://localhost:5000/users/login
+ * POST -> https://blog-it-n9gi.onrender.com/users/login
  */
 
 /*

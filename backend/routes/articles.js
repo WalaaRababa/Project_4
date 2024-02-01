@@ -23,13 +23,13 @@ const articlesRouter = express.Router();
 
 /*
  * Testing Routes:
- * GET - POST ->  http://localhost:5000/articles/
- * POST ->        http://localhost:5000/articles/22/comments/
- * GET  ->        http://localhost:5000/articles/search_1?author=2
- * GET  ->        http://localhost:5000/articles/search_2/2
- * PUT  ->        http://localhost:5000/articles/2
- * DELETE ->      http://localhost:5000/articles/2
- * DELETE ->      http://localhost:5000/articles/2/author
+ * GET - POST ->  https://blog-it-n9gi.onrender.com/articles/
+ * POST ->        https://blog-it-n9gi.onrender.com/articles/22/comments/
+ * GET  ->        https://blog-it-n9gi.onrender.com/articles/search_1?author=2
+ * GET  ->        https://blog-it-n9gi.onrender.com/articles/search_2/2
+ * PUT  ->        https://blog-it-n9gi.onrender.com/articles/2
+ * DELETE ->      https://blog-it-n9gi.onrender.com/articles/2
+ * DELETE ->      https://blog-it-n9gi.onrender.com/articles/2/author
  */
 
 /*
